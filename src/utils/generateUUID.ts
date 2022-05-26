@@ -1,7 +1,7 @@
-import { uuid } from 'uuidv4'
+import { v4 } from 'uuid'
 
 const generateUUID = () => {
-    return uuid()
+    return v4()
 }
 
 export { generateUUID }
